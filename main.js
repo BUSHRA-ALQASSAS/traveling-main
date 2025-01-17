@@ -1,5 +1,3 @@
-
-
 const countries = [
   {
     name: "egypt",
@@ -315,8 +313,6 @@ const countries = [
     ],
   },
 ];
-
-
 // open country when I click on country div
 const openCountry = (countryName) => {
   const country = countries.find((country) => country.name === countryName);

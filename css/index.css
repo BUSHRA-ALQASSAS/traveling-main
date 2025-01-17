@@ -106,14 +106,13 @@ html{
     margin-bottom: 30px;
     color: white;
     font-size: 27px;
-    font-weight: 700;
-    text-transform: uppercase;
-  color: transparent;
-  background: linear-gradient(104deg, #e5da02f1 30%, #f1660cf1 80%);
-  -webkit-background-clip: text;
-  background-clip: text; 
-  font-family: "Arial", sans-serif;
-
+font-weight: 700;
+text-transform: uppercase;
+color: transparent;
+background: linear-gradient(104deg, #e5da02f1 30%, #f1660cf1 80%);
+-webkit-background-clip: text;
+background-clip: text; 
+font-family: "Arial", sans-serif;
 }
 
 .main-btn {
@@ -144,19 +143,82 @@ html{
     padding: 20px 0;
 }
 
-
-.logo-container .logo-link{
-    display: block;
-     color:#3a7e85;
-     font-size: 27px;
-    font-weight: 900;
+.tex{
+    text-shadow: 3px 9px 1px #919191, 5px 6px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+} 
+.box{
+    box-shadow: 5px 10px 1px #919191, 
+    7px 10px 1px #919191,
+    1px 3px 1px #919191,
+    1px 4px 1px #919191,
+    1px 5px 1px #919191,
+    1px 6px 1px #919191,
+    1px 7px 1px #919191,
+    1px 8px 1px #919191,
+    1px 9px 1px #919191,
+    1px 10px 1px #919191,
+1px 18px 6px rgba(16,16,16,0.4),
+1px 22px 10px rgba(16,16,16,0.2),
+1px 25px 35px rgba(16,16,16,0.2),
+1px 30px 60px rgba(16,16,16,0.4); ;
 }
-
+.logo-container .logo-link{
+    display: flex;
+    color:#3a7e85;
+    font-size: 27px;
+    text-transform: uppercase;
+    font-family: verdana;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
 .nav-list .nav-item .nav-item-link{
+    display: flex;
     transition: 0.5s linear;
-    font-weight: 500;
+    color: #3a7e85;
+    /* font-weight: 500; */
     font-size: 19px;
     text-transform: capitalize;
+    font-family: verdana;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
 }
 
 .nav-list .nav-item .nav-item-link:hover{
@@ -418,7 +480,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../ima
 
 .countries-container{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px ,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(400px ,1fr));
     gap: 40px;
 }
 
@@ -466,6 +528,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../ima
 /*start footer*/
 .footer{
     background-color:#0a1112;
+    /* text-align: center; */
 }
 .footer-container{
     display: grid;
@@ -475,9 +538,31 @@ background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../ima
     padding: 40px 0;
 }
 .footer-column .footer-title{
+    display: flex;
     font-size: 22px;
     font-weight: bold;
+    font-family: verdana;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
 }
+/* .footer-logo{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+} */
 
 .footer-column a,
 .footer-column p {
@@ -486,18 +571,15 @@ background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../ima
     color: #d8d8d7;
 }
 .footer-column a{
-    display: block;
+    display:block;
 
 }
 
 .footer-countries p{
     cursor: pointer;
 }
-
-.footer-logo{
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 15px;
+.footer-countries p a{
+    display: inline;
 }
 
 .footer h6{
